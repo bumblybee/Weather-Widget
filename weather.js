@@ -60,6 +60,8 @@ weatherCard.addEventListener("keypress", function(e) {
           image.src = "img/day.png";
         } else if (descValue.includes("fog")) {
           image.src = "img/haze.png";
+        } else if (descValue.includes("thunderstorm")) {
+          image.src = "img/storm.png";
         }
       })
 

@@ -1,0 +1,109 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Heebo", sans-serif;
+  background-color: #e1eff88e;
+  color: #eef2f5;
+}
+
+input {
+  margin: 20px 0 35px;
+  text-align: center;
+}
+
+input:focus {
+  outline: none;
+}
+
+#date-time {
+  font-size: 15px;
+  font-weight: 400;
+  text-align: center;
+  transform: translateX(-30%);
+}
+
+#weather-card {
+  background: linear-gradient(#a0cce78e, #65b8f08f), url("img/clouds.jpg");
+  border: 1px hidden #a0cce78e;
+  /* border-left: none; */
+  border-radius: 2px;
+  box-shadow: -1px 11px 5px -3px #8ca4acef, -1px 10px 5px -6px #304147f1;
+  height: 360px;
+  width: 280px;
+  margin: 10% auto;
+  text-align: center;
+}
+
+#input {
+  background-color: #285574d3;
+  border-top-right-radius: 4px;
+  border-top-left-radius: 4px;
+  border: 1px solid #285574d3;
+  box-shadow: -1px -1px 1px #8ca4ac9f;
+  height: 70px;
+  margin-bottom: 10px;
+}
+
+#image {
+  border: none;
+  filter: invert();
+  display: none;
+}
+
+#image[src] {
+  display: inline-block;
+  width: 90px;
+  height: 100px;
+}
+
+#city {
+  height: 30px;
+  width: 170px;
+  background: #f1f5f8;
+  box-shadow: inset 1px 2px 2px -1px;
+  font-family: "Nunito", sans-serif;
+  font-weight: bold;
+  font-size: 16px;
+  border: none;
+  border-radius: 2px;
+  padding: 5px;
+}
+
+#button {
+  box-shadow: 2px 2px 6px rgba(127, 130, 143, 0.301);
+  height: 29px;
+  width: 60px;
+  background: #eff4f5;
+  font-family: "Nunito", sans-serif;
+  font-weight: bold;
+  font-size: 13px;
+  border: none;
+  border-radius: 2px;
+}
+
+#button:hover {
+  background-color: #dfe8ec;
+}
+#display {
+  text-align: center;
+}
+
+#name {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-size: 30px;
+}
+
+#description {
+  font-family: "Nunito", sans-serif;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+#temp {
+  font-weight: bold;
+}

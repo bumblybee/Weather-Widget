@@ -4,7 +4,10 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <meta http-equiv="Content-Security-Policy" content="img-src 'self' data:" />
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="img-src 'self' data:;"
+    />
     <link
       href="https://fonts.googleapis.com/css?family=Heebo&display=swap"
       rel="stylesheet"
@@ -16,7 +19,12 @@
   <body>
     <div id="weather-card">
       <div id="input">
-        <input id="city" type="text" placeholder="Enter city" />
+        <input
+          id="city"
+          type="text"
+          placeholder="Enter city"
+          autocomplete="off"
+        />
         <input id="button" type="submit" value="Submit" />
       </div>
       <div id="show-weather">
